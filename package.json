@@ -1,0 +1,19 @@
+{
+  "name": "harass",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/harass.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iainreid820/harass.git"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iainreid820/harass/issues"
+  },
+  "homepage": "https://github.com/iainreid820/harass#readme"
+}
