@@ -1,20 +1,23 @@
 {
-  "name": "harass",
+  "name": "@chaffity/repeat",
   "version": "0.0.1",
   "description": "",
-  "main": "lib/harass.js",
-  "types": "lib/harass.d.ts",
+  "main": "lib/repeat.js",
+  "types": "lib/repeat.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iainreid820/harass.git"
+    "url": "git+https://github.com/Chaffity/repeat.git"
   },
   "keywords": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iainreid820/harass/issues"
+    "url": "https://github.com/Chaffity/repeat/issues"
   },
-  "homepage": "https://github.com/iainreid820/harass#readme"
+  "homepage": "https://github.com/Chaffity/repeat#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }

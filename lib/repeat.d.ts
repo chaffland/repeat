@@ -1,5 +1,5 @@
-declare namespace harass {
-  interface HarassInstance {
+declare namespace repeat {
+  interface RepeatInstance {
     <TResult>(target: () => TResult): () => Promise<TResult>
     <T1, TResult>(target: (t1: T1) => TResult): (t1: T1) => Promise<TResult>
     <T1, T2, TResult>(target: (t1: T1, t2: T2) => TResult): (t1: T1, t2: T2) => Promise<TResult>
@@ -12,5 +12,5 @@ declare namespace harass {
   }
 }
 
-declare function harass(times: number): harass.HarassInstance
-export = harass;
+declare function repeat(times: number): repeat.RepeatInstance
+export = repeat;
